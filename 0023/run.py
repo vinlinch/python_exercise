@@ -1,3 +1,7 @@
+#!python3.6.1
+# -*- coding: utf-8 -*-
+# author: https://github.com/vinlinch
+# 第 0023 题： 使用 Python 的 Web 框架，做一个 Web 版本 留言簿 应用。
 from flask import Flask, request, render_template, url_for
 import pymongo
 import datetime
